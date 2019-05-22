@@ -30,3 +30,7 @@ const logoHeading = document.querySelector('.logo-heading');
 logoHeading.addEventListener('dblclick', function(event){
   event.target.style.transform = "rotate(180deg)"
 })
+
+window.addEventListener("online", (event) => {
+  alert("You are now connected to the network.")
+});
